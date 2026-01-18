@@ -15,11 +15,16 @@ This Streamlit app extracts factual claims from uploaded PDFs and verifies them 
 4. AI verifies claims against evidence
 
 ## Tech Stack
-- Streamlit
-- LangChain
-- OpenAI GPT
+- Python, Streamlit
+- OpenAI GPT API
 - Tavily Search API
+- LangChain
+
+## Deployment
+Deployed on Streamlit Cloud: [https://fact-checking-app23.streamlit.app/]
 
 ## Setup
-pip install -r requirements.txt  
-streamlit run app.py
+1. Clone repo: `git clone https://github.com/YOUR-USERNAME/fact-checking-app`
+2. Install: `pip install -r requirements.txt`
+3. Add API keys to `.env` file
+4. Run: `streamlit run app.py`
